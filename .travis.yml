@@ -39,7 +39,7 @@ deploy:
     application: spring-webservice
     deployment_group: spring-webservice
     region: ap-northeast-2
-    wail-until-deployed: true
+    wait-until-deployed: true
 
 # CI 실행 완료 시 메일로 알람
 notifications:
